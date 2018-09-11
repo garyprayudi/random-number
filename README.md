@@ -1,1 +1,5 @@
-# random-number
+# garyprayudi.github.io
+
+Random number.
+
+garyprayudi
