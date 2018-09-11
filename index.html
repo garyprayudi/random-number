@@ -1,0 +1,225 @@
+<!-- 
+RANDOM NUMBER
+Created by: Gary Yonathan Prayudi
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Random Number</title>
+    <!-- <link rel="stylesheet" href="menu3.css"> -->
+    <style>
+    *{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}html{font-family:Arial,Helvetica,sans-serif;font-size:14px}.baris::after{content:"";clear:both;display:block}.kol1{width:8.33%}.kol2{width:16.66%}.kol3{width:25%}.kol4{width:33.33%}.kol5{width:41.66%}.kol6{width:50%}.kol7{width:58.33%}.kol8{width:66.66%}.kol9{width:75%}.kol10{width:83.33%}.kol11{width:91.66%}.kol12{width:100%}[class*=kol]{width:100%;float:left;padding:7px}@media only screen and (min-width:600px){.kolm-1{width:8.33%}.kolm-2{width:16.66%}.kolm-3{width:25%}.kolm-4{width:33.33%}.kolm-5{width:41.66%}.kolm-6{width:50%}.kolm-7{width:58.33%}.kolm-8{width:66.66%}.kolm-9{width:75%}.kolm-10{width:83.33%}.kolm-11{width:91.66%}.kolm-12{width:100%}}@media only screen and (min-width:768px){.kol1{width:8.33%}.kol2{width:16.66%}.kol3{width:25%}.kol4{width:33.33%}.kol5{width:41.66%}.kol6{width:50%}.kol7{width:58.33%}.kol8{width:66.66%}.kol9{width:75%}.kol10{width:83.33%}.kol11{width:91.66%}#plain-menu,.kol12{width:100%}.mobmenu-toggle{display:none!important}.dropdown-content{display:none}}.mobile-menu-toggle{left:-9999px;position:absolute;top:-9999px}@media handheld,screen and (max-width:768px){body{margin-top:50px!important}#plain-menu{border:1px solid #222;-webkit-border:0 solid;box-shadow:0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23)}#plain-menu li:last-child{border:1px red;padding:20px 0}.mobile-menu-toggle-button,.mobile-toggleable-menu,.mobmenu-toggle{top:0;position:fixed;-webkit-transition:all 400ms ease-out;-moz-transition:all 400ms ease-out;-ms-transition:all 400ms ease-out;-o-transition:all 400ms ease-out;transition:all 400ms ease-out}.mobmenu-toggle{left:0;margin:0;display:inline-block;width:15%;z-index:999;box-shadow:0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23)}.mobmenu-toggle i{transform:rotate(-540deg);-webkit-transform:rotate(-540deg)}.mobmenu-toggle:hover{cursor:pointer}.mobile-toggleable-menu{margin:0;width:85%;height:100%;max-height:100%;z-index:998}.mobile-toggleable-menu li{width:100%;z-index:998;margin:0!important}.mobile-toggleable-menu li a{border-bottom:1px solid #ddd}.mobile-toggleable-menu.mobile-left{overflow-y:scroll;margin-bottom:10px}.mobile-menu-toggle-button:checked~.mobmenu-toggle.mobile-right{left:0;right:auto}.mobile-menu-toggle-button:checked~.mobmenu-toggle.mobile-left{left:auto}.mobile-menu-toggle-button:checked+.mobile-toggleable-menu.mobile-left{width:85%!important;height:100%!important;right:0}.mobile-menu-toggle-button:checked+.mobile-toggleable-menu.mobile-right{width:85%!important;right:0}.mobile-menu-toggle-button:checked~.mobmenu-toggle{background-color:#000;color:orange;transform:rotate(-540deg);-webkit-transform:rotate(-540deg)}.mobile-menu-toggle-button:checked~.mobmenu-toggle i{display:inline-block}.search-bar,input{display:block;width:100%}.dropdown-content{display:block;position:relative!important;background-color:#aaa;color:orange;min-width:160px;box-shadow:0 8px 16px 0 rgba(0,0,0,.2);z-index:9999}}ul{margin:0;padding:1em}.search-bar{float:right}.search-bar input,.search-bar input[type=submit],input[type=submit]{box-sizing:border-box;border:2px solid #ccc;padding:6px;-webkit-transition:width .4s ease-in-out;transition:width .4s ease-in-out}button{cursor:pointer;background-color:#fff}.search-bar input[type=submit]{cursor:pointer;color:#fff;background-color:#4caf50}.mobile-toggleable-menu{background-color:#f8f8f8;color:#fff;display:block;width:85%;height:0!important;padding:0;right:0}.mobmenu-toggle{background-color:orange;color:#fff;text-align:center;font-weight:700;height:auto;padding:11px;vertical-align:middle;border:1px solid #000;-webkit-padding-after:12px}.mobile-toggleable-menu li{display:inline-block;padding:0;margin:0 0 0 -4px;line-height:40px}.mobile-toggleable-menu li a{height:100%;width:100%;display:inline-block;color:#000;padding:0 20px;transition:width 2s ease-out}.dropdown .dropbtn{transition:width 2s ease-out}.dropdown:hover .dropbtn,.mobile-toggleable-menu li a:hover,li a:hover{background-color:#ddd;transition:all .15s}.mobmenu-toggle:hover{background:gray}@media handheld,screen and (max-width:480px){.mobile-menu-toggle-button:checked~.mobmenu-toggle{background-color:#000;transform:rotate(-540deg);-webkit-transform:rotate(-540deg)}.mobile-menu-toggle-button:checked~.mobmenu-toggle i,.mobmenu-toggle i{display:none}.mobile-toggleable-menu li{width:100%;margin:0}.search-bar,input{display:block;width:100%}}.dropbtn,li a{color:#fff;padding:14px 16px}.dropdown-content a{color:#fff;padding:12px 16px;display:block;text-align:left}.dropbtn,li a,li.dropdown{display:inline-block}.dropdown-content{position:absolute;background-color:#fff;color:orange;min-width:160px;box-shadow:0 8px 16px 0 rgba(0,0,0,.2);z-index:9999;border-left:4px solid}.dropdown-content a:hover{background-color:#000}.dropdown:hover .dropdown-content{display:block}
+
+        *{font-family:Roboto,'Segoe UI',Tahoma,sans-serif;font-size:14px;box-sizing:border-box}body{margin:auto}a{display:inline-table}.col-container{display:table;width:100%;content: "";clear: both;}.col-container:last-of-type{margin-bottom:100px}.col{display:table-cell;padding:0}.col:first-of-type{min-width:200px;width:33.3333%}.col:last-of-type{width:33.3333%}.col .col-header{background-color: red;display:block;padding: 4px;color:#fff;font-weight:700}.col .col-content{padding:0 32px 32px}.aboutThis,button{box-shadow:0 2px 4px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)!important}button:hover{cursor:pointer}.aboutThis{position:fixed;float:left;left:0;bottom:0;padding:4px;background-color:rgba(255,255,0,0.7);margin:1px;border-left:4px solid yellowgreen}.col ul{margin:0}button{border:none}@media only screen and (max-width:600px){.col{display:block;width:100%!important}}
+        .header{padding:0}
+        .header a{padding: 8px;display: inline-block}
+        .header a:hover{background-color: #dde}
+
+        .red{background-color: #FDD}
+        .green{background-color: #DFD;}
+        .blue{background-color: #E7F3FE}
+        .yellow{background-color: #FFC}
+        .default{background-color: #EEE}
+
+        .btn{box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12) !important;padding: 4px}
+        small, small > * {font-size:12px}
+    </style>
+    <!-- Demo Style -->
+    <style>     
+        #acak,.area_acak{text-align:center;}.normal{color:#000;background:0 0;border:0;padding:0}#acak{transition:.5s;font-size:100px}.hasil{color:red;background:#ff0;border:5px solid #0f0;padding:0 25px}#tombol_acak{background:#0f0;padding:20px;text-decoration:none;width:150px;color:#000}#tombol_acak:disabled{color:gray;background:#00f}#tombol_stop,#tombol_ulang{color:#fff;padding:20px;text-decoration:none;width:150px}#tombol_stop{background-color:#f00;display:none}#tombol_ulang{background:orange}@media only screen and (max-width:600px){.center{width:100%!important;padding:10px}}
+    </style>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle mobile-menu-toggle-button">
+        <ul id="plain-menu" class="mobile-toggleable-menu mobile-left">
+            <li><a href="./index3.php">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Hi...</a>
+                <div class="dropdown-content">
+                    <a href="javascript:void(0)">My name is Gary.</a>
+                    <a href="javascript:void(0)">Thank you for visiting this page.</a>
+                </div>
+            </li>
+            <li class="search-bar"><form action="" method="post"><input type="text" name="pencarian" placeholder="Search..."><input type="submit" value="Search"></form></li>
+        </ul>
+        <label class="mobile-left mobmenu-toggle" for="mobile-menu-toggle"><i>Menu</i> <span>></span></label>
+    </nav>
+    
+        <div class="col-container">
+        <div class="col blue">
+            <div class="col-header">#1 - Example</div>
+            <div class="col-content">
+                <h2>Condition:</h2>
+                <ul style="padding: 0">                 
+                    <li>Unlimited random:</li>
+                    <ul>
+                        <li><input type="checkbox" name="cekopsi" id="cekopsi" value="1"><br>If the checkbox is checked, you have to stop the random number until the STOP button is pressed.</li>
+                    </ul>
+                    <li>Max number:</li>
+                    <ul>
+                        <li><input type="number" name="maks_angka" id="maks_angka" value="100" min="1"></li>
+                    </ul>
+                    <li>Limit <i>n</i> times in random:</li>
+                    <ul>
+                        <li><input type="number" name="acak_maks" id="acak_maks" value="10" min="2"></li>
+                    </ul>
+                    <li>Delay</li>
+                    <ul>
+                        <li><input type="number" name="delay" id="delay" value="100" min="1"><br>If the value = 1000 then the delay = 1s,<br>if the value 100 = then the delay = 0.1s.</li>
+                    </ul>
+                </ul>
+            </div>          
+        </div>
+        <div class="col">
+            <div class="col-header">#2 - Try</div>
+            <div class="col-content">
+                <a href="./index3.php" class="red btn" style="font-size: 20px">REFRESH ALL</a>
+                <div class="area_acak" style="padding: 10px">
+                    <span id="acak" class="normal">0</span>
+                    <!-- <div id="dvCountDown" style="display: none">
+                        <span id="lblCount"></span>&nbsp;seconds.
+                    </div> -->
+                    <br>
+                    <br>        
+                    <button id="tombol_acak" type="button" onclick="acakAngka(document.getElementById('maks_angka').value,document.getElementById('acak_maks').value,document.getElementById('delay').value);">START</button>
+                    <button id="tombol_stop" type="button" onclick="">STOP</button>
+                    <button id="tombol_ulang" type="button" onclick="ulang()">RETRY</button>
+                </div>
+            </div>
+        </div>
+        <div class="col blue">
+            <div class="col-header">#3 - Info</div>
+            <div class="col-content">
+                <p>This demonstration is to get the number by random. When the RESULT is about to appear, it can be saved into database.</p>
+                <p>If you experienced some bugs or another error about this demo, or maybe some contribution or comments, please let me know by emailing/informing me at my social media. Thank you...</p>
+            </div>
+        </div>
+    </div>
+    <p class="aboutThis">
+        <small>
+            <u>Random Number</u><br>
+            <i>This example demonstrates how to get a "random number" when the user starts to press the button.</i><br>
+            Created by: Gary Yonathan Prayudi
+            
+        </small>
+    </p>
+    <script>
+        window.onload=function() {
+            var checkboxes = document.querySelector('#mobile-menu-toggle');
+            checkboxes.checked=false;
+        }
+    </script>
+    <script>
+        document.getElementById('tombol_ulang').style.display="none";
+        var i=1,j;
+        var cekopsi = document.getElementById("cekopsi");   
+        var tombol_acak=document.getElementById('tombol_acak');
+        var tombol_stop=document.getElementById('tombol_stop');
+        var tombol_ulang=document.getElementById('tombol_ulang');
+        var angka_acak=document.getElementById('acak');
+
+        function acakAngka(nilai_maks,batas_acak,delay) {
+            var delay = document.getElementById('delay').value;
+            tombol_acak.style.display='none';
+            tombol_stop.style.display='inline-block';
+            tombol_acak.setAttribute('disabled','disabled');
+            i++;
+            
+            angka_acak.innerHTML=''; 
+            var hasil = (Math.random()*parseInt(nilai_maks)).toFixed();
+            angka_acak.innerHTML=hasil;
+            j=i;
+            if (batas_acak===j-1) {        
+                document.getElementById('tombol_stop').style.display='none'
+                setTimeout(function(){
+                    var tanya = confirm("Do you want to save the result: \n("+angka_acak.innerHTML+") \ninto database?");    
+                    if (tanya) {
+                        // alert(angka_acak.innerHTML);
+                        sendToDB(angka_acak.innerHTML);
+                    } else {
+                        return false;
+                    }               
+                },200);         
+            }
+            if (i<=batas_acak) {
+                setTimeout("acakAngka("+nilai_maks+", "+batas_acak+")",delay);
+                window.onkeypress=function(e){
+		    		var char = e.which || e.keyCode;
+					if (char==32) {
+						i=batas_acak;
+	                    document.getElementsByTagName("SPAN")[1].setAttribute("class", "hasil");
+	                    tombol_ulang.style.display="inline-block";
+					}
+		    	}
+                document.getElementById('tombol_stop').onclick=function(){
+                    i=batas_acak;
+                    document.getElementsByTagName("SPAN")[1].setAttribute("class", "hasil");
+                    tombol_ulang.style.display="inline-block";
+                }
+
+
+
+                if (i==batas_acak) {
+                    document.getElementsByTagName("SPAN")[1].setAttribute("class", "hasil");
+                    tombol_ulang.style.display="inline-block";
+                    if (cekopsi.checked) {
+                        document.getElementsByTagName("SPAN")[1].removeAttribute("class", "hasil");
+                        tombol_ulang.style.display="none";
+                        i=1;
+                    } else {
+
+                    }
+                }
+                
+            } else {
+                i=0;
+            }
+        }
+
+        function ulang() {
+            tombol_ulang.style.display='none';
+            tombol_stop.style.display='none';
+            tombol_acak.style.display='inline-block';
+            // tombol_acak.style.width='100%';
+            tombol_acak.removeAttribute('disabled');
+            tombol_acak.innerHTML='TRY AGAIN...';
+            angka_acak.innerHTML='0';
+            angka_acak.removeAttribute('class');
+            i=1;
+        }
+        function ajaxInit() {
+            try {
+                xmlhttp = new XMLHttpRequest();
+            } catch (e) {
+                try {
+                    xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+                } catch (e) {
+                    try {
+                        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    } catch (e) {
+                        alert("Your browser cannot support AJAX!");
+                        return false;
+                    }
+                }
+            }
+        }
+        function sendToDB(result) {
+            ajaxInit();
+            xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                    alert(xmlhttp.responseText);
+                } else {
+                    alert("This if for demo. Thank you for testing this. :)")
+                }
+            }
+            var queryString="result="+ result;
+            xmlhttp.open("POST", "linkToSave.php", true);
+            xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xmlhttp.send(queryString);
+        }    
+    </script>
+</body>
+</html>
